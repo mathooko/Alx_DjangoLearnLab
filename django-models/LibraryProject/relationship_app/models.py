@@ -13,6 +13,6 @@ class Librarian:
     name=models.CharField(max_length=200)
     library=models.OneToOneField(Library)
 
-    class Author(models.Model), 
+    class Author(models.Model)
         
         return self.name
