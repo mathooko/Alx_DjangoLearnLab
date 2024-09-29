@@ -27,3 +27,7 @@ relationship_app/list_books.html
 "relationship_app/library_detail.html
 library
 from .models import Library
+
+Checks for the “Utilize Django’s ListView or DetailView to structure this class-based view.” task
+
+from django.views.generic.detail import DetailView
