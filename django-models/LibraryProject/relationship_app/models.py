@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-class Author:
+class Author(models.Model):
     name= models.CharField(max_length=200)
 class Book:
     title=models.CharField(max_length=200)
@@ -13,6 +13,5 @@ class Librarian:
     name=models.CharField(max_length=200)
     library=models.OneToOneField(Library)
 
-    class Author(models.Model)
-        
-        return self.name
+         
+    return self.name
