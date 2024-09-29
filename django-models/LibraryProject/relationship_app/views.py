@@ -20,4 +20,5 @@ def book_list(request):
 
 #Checks for the “Utilize Django’s built-in views and forms for handling user authentication. You will need to create views for user login, logout, and registration.” task
 
-from django.contrib.auth import login", "from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth import login
+from django.contrib.auth.forms import UserCreationForm
