@@ -38,3 +38,7 @@ from django.views.generic.detail import DetailView
 
 from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm
+
+Checks for “Use Django’s permission_required decorator to secure views that add, edit, or delete books.” task
+
+"from django.contrib.auth.decorators import permission_required", "relationship_app.can_add_book", "relationship_app.can_change_book", "relationship_app.can_delete_book"
