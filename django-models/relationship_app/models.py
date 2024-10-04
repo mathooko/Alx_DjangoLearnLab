@@ -3,7 +3,8 @@ from django.contrib.auth.models import User
 
 class Author(models.Model):
     name= models.CharField(max_length=200)
-    def __str__(self):
+    def __str__(self):# String representations
+            # Without this, we see the object representation in memory
             return self.name
 class Book(models.Model):
     title=models.CharField(max_length=200)
