@@ -140,3 +140,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #Checks for “SECUREHSTSSECONDS: Set an appropriate value (e.g., 31536000 for one year) to instruct browsers to only access the site via HTTPS for the specified time.” task
 
 "SECURE_HSTS_SECONDS", "31536000"
+
+# Checks for “SECUREHSTSINCLUDESUBDOMAINS and SECUREHSTS_PRELOAD: Set to True to include all subdomains in the HSTS policy and to allow preloading.” task
+
+"SECURE_HSTS_INCLUDE_SUBDOMAINS"
