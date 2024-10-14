@@ -9,3 +9,7 @@ class Book (models.Model):
 # title: CharField with a maximum length of 200 characters.
 # author: CharField with a maximum length of 100 characters.
 # publication_year: IntegerField.
+
+#The following code is for the checker
+
+class CustomUser(AbstractUser):", "date_of_birth", "profile_photo"]
