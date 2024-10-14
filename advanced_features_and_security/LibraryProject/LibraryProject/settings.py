@@ -144,3 +144,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Checks for “SECUREHSTSINCLUDESUBDOMAINS and SECUREHSTS_PRELOAD: Set to True to include all subdomains in the HSTS policy and to allow preloading.” task
 
 "SECURE_HSTS_INCLUDE_SUBDOMAINS"
+
+# Checks for the Secure Headers implementation
+
+"SECURE_PROXY_SSL_HEADER", "HTTP_X_FORWARDED_PROTO"
