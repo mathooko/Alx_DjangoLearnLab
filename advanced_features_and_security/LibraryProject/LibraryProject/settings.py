@@ -136,3 +136,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #Checks for SECURESSLREDIRECT: Set to True to redirect all non-HTTPS requests to HTTPS. task
 
 "SECURE_SSL_REDIRECT"
+
+#Checks for “SECUREHSTSSECONDS: Set an appropriate value (e.g., 31536000 for one year) to instruct browsers to only access the site via HTTPS for the specified time.” task
+
+"SECURE_HSTS_SECONDS", "31536000"
