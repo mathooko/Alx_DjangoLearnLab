@@ -4,3 +4,7 @@ from django.shortcuts import render
 
 #Check for views.py File Existence and Permission Decorators
 "book_list", "raise_exception", "books"
+
+#Check if views.py imports ExampleForm correctly
+
+"from .forms import ExampleForm"

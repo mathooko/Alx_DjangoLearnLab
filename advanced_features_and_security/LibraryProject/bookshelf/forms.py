@@ -2,6 +2,3 @@
 
 ExampleForm
 
-#Check if views.py imports ExampleForm correctly
-
-"from .forms import ExampleForm"
