@@ -13,3 +13,8 @@ class Book (models.Model):
 #The following code is for the checker
 
 class CustomUser(AbstractUser):", "date_of_birth", "profile_photo"]
+
+
+#Check for Custom User Manager Definition:
+
+class CustomUserManager(BaseUserManager):", "create_user", "create_superuser"
