@@ -20,6 +20,3 @@ class CustomUser(AbstractUser):", "date_of_birth", "profile_photo"]
 class CustomUserManager(BaseUserManager):", "create_user", "create_superuser"
 
 
-#Check for Custom User Admin Registration:
-   
- - LibraryProject/bookshelf/admin.py doesn't contain: ["admin.site.register(CustomUser, CustomUserAdmin)"]

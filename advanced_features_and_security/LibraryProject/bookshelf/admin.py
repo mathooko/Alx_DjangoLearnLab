@@ -5,3 +5,7 @@ from .models import Book
 "register", "admin.ModelAdmin"
 "list_filter", "author", "publication_year"
 "search_fields", "title"
+
+#Check for Custom User Admin Registration:
+   
+ - LibraryProject/bookshelf/admin.py doesn't contain: ["admin.site.register(CustomUser, CustomUserAdmin)"]
