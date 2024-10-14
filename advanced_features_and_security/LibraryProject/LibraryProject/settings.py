@@ -132,3 +132,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Check if the settings.py file contains the necessary security configurations
 
 "SECURE_BROWSER_XSS_FILTER", "X_FRAME_OPTIONS", "SECURE_CONTENT_TYPE_NOSNIFF", "CSRF_COOKIE_SECURE", "SESSION_COOKIE_SECURE"
+
+#Checks for SECURESSLREDIRECT: Set to True to redirect all non-HTTPS requests to HTTPS. task
+
+"SECURE_SSL_REDIRECT"
