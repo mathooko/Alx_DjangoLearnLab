@@ -20,3 +20,6 @@ class Librarian(models.Model):
     "class UserProfile(models.Model):", "Admin", "Member"
     ["class Meta", "permissions"]
     "can_add_book", "can_change_book", "can_delete_book"
+
+    # Check for models.py File Existence and Custom Permissions Definition:
+    "class Book(models.Model):", "can_create", "can_delete"
